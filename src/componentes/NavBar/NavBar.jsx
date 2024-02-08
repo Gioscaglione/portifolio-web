@@ -13,7 +13,7 @@ export const NavBar = () => {
         </a>
         <div className={styles.menu}>
             <img 
-            className={styles.menuBtn} 
+            className={`${styles.menuBtn} hide-on-large-screens`} 
             src={
                 menuOpen 
                 ? getImageUrl("nav/closeIcon.png")
